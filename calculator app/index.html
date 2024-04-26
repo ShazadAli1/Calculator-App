@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>CALCULATOR</h1>
+    </div>
+    <div class="parent">
+        <div class="input">
+            <input type="text" id="inputField"   disabled placeholder="0" >
+        </div>
+        <table class="table   " >
+            <tr class="bg-red" >
+                <td class="bg-grey , color  " onclick="singleClearValue()">C</td>
+                <td  class="bg-grey" onclick="allClearValue()">AC</td>
+                <td class="bg-grey" onclick="addValue('%')">%</td>
+                <td class="bg-red" onclick="addValue('/')">/</td>
+            </tr>
+            <tr>
+                <td class="bg-dgrey" onclick="addValue(7)">7</td>
+                <td class="bg-dgrey" onclick="addValue(8)">8</td>
+                <td class="bg-dgrey" onclick="addValue(9)">9</td>
+                <td class="bg-red" onclick="addValue('*')">*</td>
+            </tr>
+            <tr>
+                <td class="bg-dgrey"onclick="addValue(4)">4</td>
+                <td class="bg-dgrey"onclick="addValue(5)">5</td>
+                <td class="bg-dgrey"onclick="addValue(6)">6</td>
+                <td class="bg-red" onclick="addValue('-')">-</td>
+            </tr>
+            <tr>
+                <td class="bg-dgrey" onclick="addValue(1)">1</td>
+                <td class="bg-dgrey"  onclick="addValue(2)">2</td>
+                <td class="bg-dgrey" onclick="addValue(3)">3</td>
+                <td  class="bg-red" onclick="addValue('+')">+</td>
+
+            </tr>
+            <tr >
+                <td class="bg-dgrey" colspan="2" onclick="addValue(0)">0</td>
+                
+                <td class="bg-dgrey" onclick="addValue('.')">.</td>
+                <td  class="bg-red" onclick="result()">=</td>
+
+                
+            </tr>
+        </table>       
+     
+    
+    
+    
+    </div>
+
+    
+</body>
+<script src="app.js"></script>
+</html>

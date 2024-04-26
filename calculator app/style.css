@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.heading {
+    text-align: center;
+margin-top: 50px;
+}
+
+
+.parent {
+    border-radius: 20px;
+    width: 18%;
+    padding-bottom: 13px;
+    
+    
+    background-color: black;
+    margin: 40px auto;
+    padding-bottom: ;
+    
+    
+}
+.input{
+
+
+}
+.input ::placeholder{
+color: white;
+text-align: right;
+
+
+
+
+}
+
+.input input {
+    width: 100%;
+    
+    padding: 70px;
+    text-align: end;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border-radius: 30px;
+}
+
+.table {
+    width: 100%;
+    padding: 0px 10px ;
+    
+    
+
+}
+
+.table td {
+    /* background-color: grey; */
+    color: rgb(245, 241, 241);
+    text-align: center;
+    font-size: 18px;
+    font-size: bold;
+    padding: 15px ;
+
+    
+    border-radius:1000px;
+    cursor:pointer;
+
+}
+.table td:hover {
+   
+    background-color: #eee;
+    color: black;
+}
+
